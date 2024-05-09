@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  /* recommendations.css */
+
+.recommended-products {
+    margin-top: 40px;
+
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* comment-section.css */
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-section form label {
+    margin-bottom: 5px;
+}
+
+.comment-section form input[type="text"],
+.comment-section form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment-section form input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-section form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* product-details.css */
+
+.product-details {
+    margin: 20px auto;
+    max-width: auto ;
+    padding: 40px 20px;
+}
+
+.product-info {
+    margin-bottom: 20px;
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px; /* Add some space between the product name and the image */
+}
+
+/* Adjust lightgallery styles */
+.lg-outer .lg-thumb-outer {
+    display: none;
+}
+
+.answered-comment-section {
+    margin-top: 20px;
+  }
+  
+  .answered-comment-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #answered-comments-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .comment .comment-text {
+    font-style: italic;
+  }
+  
+  .comment .answer-text {
+    font-weight: bold;
+  }
+
+  
+  
+

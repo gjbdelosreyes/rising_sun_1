@@ -1,0 +1,11 @@
+.third-sdg {
+    display: inline-block;
+    width: calc(50% - 10px); /* Adjust width as needed */
+    margin-right: 20px; /* Add margin between products */
+    vertical-align: top; /* Align products to the top */
+}
+
+.sdg-img {
+    max-width: 100%;
+    height: auto;
+}

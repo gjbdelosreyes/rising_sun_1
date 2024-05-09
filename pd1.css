@@ -1,0 +1,97 @@
+
+
+.container {
+    
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* White background color for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+
+h1, h2 {
+    font-family: "Arial Black", sans-serif; /* Separate font for headings */
+    color: #333; /* Color for headings */
+}
+
+.product-image {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff; /* White background color for the product image */
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.product-image:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff; /* White background color for the product details */
+}
+
+.product-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.comments-review {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff; /* White background color for the comments and review section */
+    grid-column: span 2;
+}
+
+.comments-review p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.comment-form button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}

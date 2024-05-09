@@ -1,0 +1,15 @@
+.mySlides {
+  display: none
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+
+}
+.slideshow img{
+    width: 100%;
+    max-width: 1800px;
+    min-width: 900px;
+}
